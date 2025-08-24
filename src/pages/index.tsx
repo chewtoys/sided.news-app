@@ -165,7 +165,7 @@ const Home = () => {
                 <PostCard
                   key={post.postId}
                   postId={post.postId}
-                  title={post.title.replace(/[^\w\s]/gi, "")}
+                  title={post.title}
                   image={post.image}
                   channel={post.channel}
                   link={post.link}
